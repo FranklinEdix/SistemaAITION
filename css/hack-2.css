@@ -1,0 +1,219 @@
+/*::-webkit-scrollbar{
+	-webkit-appearance: none;
+	width: 7px;
+}
+
+::-webkit-scrollbar-thumb{
+	border-radius: 4px;
+	background-color: rgba(0,0,0,.2);
+	-webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}*/
+
+.button--alter-blue {
+	border-radius: 20px;
+	background-color: #207DFF;
+	/*box-shadow: 0px 2px 6px rgba(204,204,204,.4);*/
+}
+.button--alter-blue:hover {
+	background-color: #002D71 ;
+}
+body > header nav{
+	background-color: #207DFF;
+	background-color: #22489D;
+}
+body > header nav figure{
+	/*background-color: red;*/
+	height: 100%;
+	/*padding: 10px;*/
+}
+body > header nav figure a img{
+	max-width: 180px;
+
+}
+
+body > header div:nth-of-type(2) ul a{
+	background-color: #22489D ;
+}
+
+body > header div:nth-of-type(2) ul{
+	border-top: none;
+
+}
+
+body>footer{
+	background-color: #222 ;
+}
+.row{
+	max-width: 1200px;
+}
+body>main{
+	max-width: 1300px;
+	margin: auto;
+}
+body > header div:nth-of-type(2) ul a:hover{
+	background-color: #002D71;
+}
+.login-side__body__form-side input[type="submit"]{
+	width: 200px;
+	margin: auto;
+}
+.login-side__body__form-side .form-control{
+	border-radius: 0;
+}
+.login-side__body__welcome p:nth-of-type(1){
+	color: #207DFF ;
+	font-weight: bold;
+	font-size: 20px;
+	/*text-shadow: 0px 0.1px 3px rgba(255,255,255,.4),
+				0px -0.1px 3px rgba(255,255,255,.4);*/
+}
+.login-side__body__welcome p:nth-of-type(2){
+	font-size: 14px;
+}
+.login-side__body__logo figure{
+	width: 170px;
+	/*box-shadow: 0px 2px 15px #888,0px -2px 15px #888;*/
+	/*background-color: rgba(255,255,2);*/
+}
+.login-side__body__logo figure img{
+	width: 120px;
+	height: auto
+}
+.login-side__recovery-password{
+	text-align: center;
+	color: #fff;
+}
+.login-side__recovery-password a{
+	color: rgba(255,255,255,.7);
+}
+
+body.login:after{
+	border-left: 160px solid #0044AA;
+	display: none;
+}
+body.login:before{
+	display: none;
+}
+
+body.login:after{
+	border-left: 180px solid #0044AA;
+}
+@media screen and (max-width: 768px){
+	.login-side__body__logo figure{
+		width: 150px;
+	}
+	.login-side__body__logo figure img{
+		width: 100px;
+	}
+	
+}
+.login-side__body{
+	max-width: 320px;
+}
+.login-side__body__form-side{
+	margin-top: 1em;
+}
+.login-side__body__form-side .form-control{
+	font-size: 13px !important;
+}
+.login-side::before{
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: rgba(0,0,0,.7);
+}
+.login-side__body__logo:before{
+	display: none;
+}
+body.login{
+	border-right: none;
+}
+.login-side{
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-position: center;*/
+}
+@media screen and (max-width: 768px){
+	.login-side{
+		background-position: center;
+	}
+}
+.login-side__body__form-side .select-icon select,.login-side__body__form-side .input-icon input{
+	box-shadow: none !important;
+	border-radius: 20px;
+	border: 1px solid #ccc;
+	transition: border .5s;
+	height: 40px;
+}
+.login-side__body__form-side .input-icon input:focus{
+	border-color: #0066FF;
+}
+.login-side__body__form-side .form-side__error{
+	bottom: 8em;
+}
+.login-side__body__form-side ul.errors li,
+.login-side__body__form-side .form-side__error{
+	color: #FF6768;
+}
+body>nav .navigationButtonsMainLayout a span{
+	font-size: 20px;
+	transition: all .3s;
+}
+
+body>nav .navigationButtonsMainLayout a:hover span{
+	color: #0066FF !important;
+}
+body > header div:nth-of-type(1) p{
+	text-shadow: none;
+}
+@media screen and (max-width: 768px){
+	body>footer ul li{
+		width: 150px !important;
+	}
+
+}
+
+/*contenido responsivo*/
+@media screen and (max-width: 1324px){
+	.content-responsive{
+		overflow: auto;
+	}
+	.content-responsive .data-notes-input{
+		width: 45px;
+	}
+	.content-responsive tbody tr td:nth-child(3){
+		width: 250px;
+		display: block;
+	}
+	.btn-text{
+		visibility: hidden;
+	}
+	.miscursos_DataCursos .cursos .curso{
+		width: 92% !important;
+	}
+	.miscursos_header .miscursos_headerParrafo{
+		display: none;
+	}
+	.miscursos_header .miscursos_selectPeriod .form-control{
+		width: auto;
+	}
+	.miscursos_header .miscursos_headerNamePeriod {
+		width: auto !important;
+	}
+	.avanceCursos .allCursos .curso{
+		width: 100% !important;
+	}
+	.modal-dialog{
+		width: 340px;
+	}
+}
+#save_notes{
+	margin-right: 16px;
+	background-color: #4BAD4F;
+	color: #fff;
+}
+#closure-record{
+	background-color: #ED353A;
+	color: #fff;	
+}
